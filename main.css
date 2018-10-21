@@ -1,23 +1,63 @@
-.containermain{
+@import url('https://fonts.googleapis.com/css?family=Mali|Frijole');
+
+.containerheader{
     margin-top: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: #F1F0F0;
-    width: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #EAECEE;
     height: 280px;
-    border-bottom: 3px groove #82E0AA;
+    border-bottom: 3px solid #82E0AA;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
+    display: flex;
+    flex-direction: row;
 }
-.rowname{
-    font-family: "Chalkduster", "Noteworthy-Light";
-    display: inline-block;
+.rowheader{
+    font-family: "Mali","Frijole";
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin-left: auto;
     margin-right: 30px;
-    text-align: right;
-    float: right;
+    text-align: left;
+    float: left;
+    height: -webkit-fill-available;
+    width: 368px;
+    margin-right: 0px;
+    border-top-right-radius: 30px;
+    border-top:1px solid #82E0AA;
+    border-right:1px solid #82E0AA;
+}
+.columnheader{
+    font-family: "Mali","Frijole";
+    display: flex;
+    flex-direction:column;
+    justify-content: center
 }
 .iconlogos{
-    height: 40px;
-    width: auto;
+    height: 25px;
+    width: 25px;
+    font-family: "Mali";
+    justify-content: center;
+}   
+.imgpolaroid{
+    width: 210px;
+    height: auto;
+    background-position: 15px 10px;
+    background-image: url(images/image\ profile.jpg);
+    background-repeat: no-repeat;
+    background-size: 180px;
+    margin: 20px;
+    margin-left: 60px;
+    transform: rotate(-10deg);
+    
+}
+.containerprofile{
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #154360  ;
+    height: 1280px;
+    width: 368px;
+    float: right;
 }
