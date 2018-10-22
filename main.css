@@ -1,63 +1,107 @@
 @import url('https://fonts.googleapis.com/css?family=Mali|Frijole');
 
-.containerheader{
-    margin-top: 30px;
-    margin-left: 50px;
-    margin-right: 50px;
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 40px;
+}
+.header {
+    
+    font-family: "Mali","Frijole";
+    padding: 15px;
+    width: 70%;
+    float: left;
     background-color: #EAECEE;
-    height: 280px;
+    height: 220px;
     border-bottom: 3px solid #82E0AA;
-    border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
     display: flex;
     flex-direction: row;
 }
-.rowheader{
+.header_2 {
+    width: 30%;
+    float: right;
+    padding: 15px;
+    height: 220px;
     font-family: "Mali","Frijole";
-    background-color: white;
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    margin-left: auto;
+    border-bottom:3px solid #FF3600;
+    border-right: 3px groove #FF3600  ;
+    border-top-right-radius: 30px;
+    display: flex;
+}
+
+.dateheader{
+    
+    margin-left: 30px;
     margin-right: 30px;
     text-align: left;
     float: left;
-    height: -webkit-fill-available;
-    width: 368px;
-    margin-right: 0px;
-    border-top-right-radius: 30px;
-    border-top:1px solid #82E0AA;
-    border-right:1px solid #82E0AA;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+
+    
 }
 .columnheader{
     font-family: "Mali","Frijole";
     display: flex;
     flex-direction:column;
-    justify-content: center
+    justify-content: center;
 }
 .iconlogos{
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
     font-family: "Mali";
     justify-content: center;
 }   
 .imgpolaroid{
-    width: 210px;
+    width: 180px;
     height: auto;
     background-position: 15px 10px;
     background-image: url(images/image\ profile.jpg);
     background-repeat: no-repeat;
-    background-size: 180px;
+    background-size: 150px;
     margin: 20px;
     margin-left: 60px;
     transform: rotate(-10deg);
     
 }
 .containerprofile{
-    margin-left: 50px;
-    margin-right: 50px;
     background-color: #154360  ;
     height: 1280px;
-    width: 368px;
     float: right;
+    width: 30%;
+    padding: 15px;
+}
+.iconprofile{
+    height: 30px;
+    width: 30px;
+}
+.h1_profile{
+    font-size: 25px;
+    color:#EAECEE;
+    font-family: 'Mali';  
+    margin: 20px; 
+    border-bottom: 3px solid #2E86C1;
+}
+.p_profile{
+    color:#EAECEE;
+    font-family: 'Mali'; 
+    margin: 20px; 
+
+}
+.containermain{
+    height: 1280px;
+    float: left;
+    width: 70%;
+    padding: 15px;
+}
+.h1_main{
+    font-size: 25px;
+    color:black;
+    font-family: 'Mali';  
+    margin: 20px; 
+    border-bottom: 3px solid #154360;
 }
