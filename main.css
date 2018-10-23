@@ -12,7 +12,7 @@ body{
     padding: 15px;
     width: 70%;
     float: left;
-    background-color: #EAECEE;
+    background-color:#EAECEE;
     height: 220px;
     border-bottom: 3px solid #82E0AA;
     border-bottom-left-radius: 30px;
@@ -104,4 +104,16 @@ body{
     font-family: 'Mali';  
     margin: 20px; 
     border-bottom: 3px solid #154360;
+}
+.imglogos{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    
+}
+.containt{
+    margin: 10px;
+    display: flex;
 }
